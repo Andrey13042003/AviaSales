@@ -1,0 +1,22 @@
+$color_1: grey;
+$color_2: white;
+
+.tabs {
+	display: flex;
+	justify-content: center;
+}
+.tabs__btn {
+	font-size: 14px;
+	padding: 10px 60px;
+	height: 50px;
+	cursor: pointer;
+	color: $color_1;
+	background: white;
+	border-radius: 10px;
+	border: grey;
+	&:focus {
+		color: $color_2;
+		background: #2196F3;
+		border: none;
+	}
+}

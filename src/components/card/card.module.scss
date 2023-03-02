@@ -1,0 +1,49 @@
+$color_1: #2196F3;
+$color_2: #A0B0B9;
+$color_3: #4A4A4A;
+
+.avia__data {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 460px;
+	height: 184px;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, .1);
+	border-radius: 10px;
+}
+.avia__data-first {
+	display: flex;
+	justify-content: space-between;
+	height: 61px;
+}
+.avia__data-second {
+	display: flex;
+	justify-content: space-between;
+	height: 61px;
+}
+.avia__data-third {
+	display: flex;
+	justify-content: space-between;
+	height: 61px;
+}
+.price {
+	color: $color_1;
+	font-weight: 600px;
+	font-size: 24px;
+}
+.avia__logo {
+	position: relative;
+	top: -20px;
+}
+.position {
+	display: flex;
+	flex-direction: column;
+}
+.color {
+	color: $color_2;
+}
+.weight {
+	font-weight: 600;
+	font-size: 14px;
+	color: $color_3;
+}
